@@ -13,23 +13,267 @@
     />
   </head>
   <body>
-    <header class="container"> 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Shocker</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Deals</a>
-        <a class="nav-link" href="#">Pricing</a>
-      </div>
-    </div>
-  </div>
-</nav>
+    <header class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand fix-color" href="#">Shocker</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Deals</a>
+              <a class="nav-link" href="#">Pricing</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
+    <section class="slider container">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="accessories.jpg"
+              class="d-block w-100"
+              alt="Home Set-Up"
+              height="700px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Get all your accessories</h5>
+              <p>New & stylish releases at the lowest prices!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="laptop-materials.jpg"
+              class="d-block w-100"
+              alt="Inside a laptop"
+              height="700px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Great Selection of Parts</h5>
+              <p>Lots of laptop and PC components available to order now!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="ecosystem.jpg"
+              class="d-block w-100"
+              alt="Apple Ecosystem"
+              height="700px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fix-color">Best tech-set deals</h5>
+              <p class="fix-color">
+                Apple or not we got the best deals for a tech-set from the same
+                brand.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="cards container">
+      <div class="card" style="width: 18rem">
+        <img src="drums.jpg" class="card-img-top" alt="Drum Set" />
+        <div class="card-body">
+          <h5 class="card-title">New Drum Set</h5>
+          <p class="card-text">
+            Newly arrived ddrum set. Check it out now before you regret it
+            later!
+          </p>
+          <a href="#" class="btn btn-primary">Go to Page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="ipad.jpg" class="card-img-top" alt="Ipad" />
+        <div class="card-body">
+          <h5 class="card-title">New-Gen Ipad</h5>
+          <p class="card-text">
+            New and old gen Ipads available now in all the colours possible.
+          </p>
+          <a href="#" class="btn btn-primary">Go to Page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="motherboard.jpg"
+          class="card-img-top"
+          alt="Motherboard"
+          height="190px"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Motherboard Deals</h5>
+          <p class="card-text">Sale ranging from 40-75% off!</p>
+          <a href="#" class="btn btn-primary fix">Go to Page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="microphone.jpg" class="card-img-top" alt="Microphone" />
+        <div class="card-body">
+          <h5 class="card-title">Streamer Must-Haves</h5>
+          <p class="card-text">
+            Just starting out or lookign to update your tech? Check out our new
+            arrivals.
+          </p>
+          <a href="#" class="btn btn-primary">Go to Page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="phone.jpg" class="card-img-top" alt="Phone" />
+        <div class="card-body">
+          <h5 class="card-title">Hidden Gems</h5>
+          <p class="card-text">
+            List of some not as popular tech which is just as good!
+          </p>
+          <a href="#" class="btn btn-primary fix">Go to Page</a>
+        </div>
+      </div>
+    </section>
+    <section class="accordion container">
+      <h4 class="tittle-txt fix-color">About Us</h4>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Location
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>Offices Everywhere!</strong> Custumer satisfaction is
+              important so we have a few lovations around the world. However
+              they are only for returns or issues, you can oly purchase things
+              online.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              How to reach us?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>Email us, call us, or visit the nearest location!</strong>
+              We try to be open to take calls at any time but if we don't answer
+              please email us and we will get back to you! Feel free to add your
+              phone number in the email if that is your perfered form of
+              contact.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Our Motto
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>Quality over Quantity!</strong> We believe that one good
+              component is better than loads of breakable ones! With that we try
+              to ensure all of our items our in their best shape before they are
+              shipped off to you.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer container">
+      <ul class="footer-list">
+        <li class="ft-list-info">
+          <a class="footer-brand" href="#">Shocker</a>
+        </li>
+        <li class="ft-list-info"></li>
+        <li class="ft-list-info"></li>
+        <li class="ft-list-info"></li>
+      </ul>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

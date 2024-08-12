@@ -2,3 +2,29 @@
     width: 1100px;
     outline: 2px solid turquoise;
 }
+
+.navbar-brand {
+    font-weight: 600;
+}
+.carousel {
+    margin-top: 15px;
+    height: 710px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 15px;
+}
+.fix-color {
+    color: rgb(124, 131, 163);
+}
+.fix {
+    margin-top: 24px;
+}
+.tittle-txt {
+    font-size: 30px;
+    font-weight: 600;
+}
