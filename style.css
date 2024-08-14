@@ -1,54 +1,55 @@
 .container {
-    width: 1100px;
+  width: 1100px;
 }
 
 .navbar-brand {
-    font-weight: 600;
+  font-weight: 600;
 }
 .carousel {
-    margin-top: 15px;
-    height: 710px;
+  margin-top: 15px;
+  height: 710px;
 }
 .cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin: 20px 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 15px;
 }
 .fix-color {
-    color: rgb(124, 131, 163);
+  color: rgb(124, 131, 163);
 }
 .fix {
-    margin-top: 24px;
+  margin-top: 24px;
 }
 .tittle-txt {
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
 .footer-list {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-    justify-content: center;
+  margin-top: 25px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: center;
 }
-.ft-list-info{
-    font-size: 18px;
-    font-weight: 700;
-    color: rgb(124, 131, 163);
-    text-decoration: none;
+.ft-list-info {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(124, 131, 163);
+  text-decoration: none;
 }
 .contact {
-    font-size: 18px;
-    font-weight: 700;
-    color: rgb(124, 131, 163);
-    text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(124, 131, 163);
+  text-decoration: none;
 }
-.footer-brand{
-    font-size: 18px;
-    font-weight: 700;
-    color: rgb(124, 131, 163);
-    text-decoration: none;
+.footer-brand {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(124, 131, 163);
+  text-decoration: none;
 }
